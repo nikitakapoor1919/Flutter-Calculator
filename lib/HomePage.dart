@@ -312,9 +312,10 @@ class HomePageState extends State<HomePage> {
                         child: new Icon(
                           Icons.block,
                           size: 35.0,
+                          color:Colors.red
                         ),
                         shape: new CircleBorder(),
-                        fillColor: Colors.greenAccent[700],
+                        fillColor: Colors.black45,
                         padding: const EdgeInsets.all(15.0),
                       ),
                       new RawMaterialButton(
@@ -322,11 +323,12 @@ class HomePageState extends State<HomePage> {
                         child: new Text("±",
                           style: TextStyle(
                               fontSize: 35.0,
+                              color: Colors.greenAccent[700],
                               fontWeight: FontWeight.w500
                           ),
                         ),
                         shape: new CircleBorder(),
-                        fillColor: Colors.greenAccent[700],
+                        fillColor: Colors.black45,
                         padding: const EdgeInsets.all(15.0),
                       ),
                       new RawMaterialButton(
@@ -334,11 +336,12 @@ class HomePageState extends State<HomePage> {
                         child: new Text("%",
                           style: TextStyle(
                               fontSize: 35.0,
+                              color: Colors.greenAccent[700],
                               fontWeight: FontWeight.w500
                           ),
                         ),
                         shape: new CircleBorder(),
-                        fillColor: Colors.greenAccent[700],
+                        fillColor: Colors.black45,
                         padding: const EdgeInsets.all(15.0),
                       ),
                       new RawMaterialButton(
@@ -351,7 +354,7 @@ class HomePageState extends State<HomePage> {
                           ),
                         ),
                         shape: new CircleBorder(),
-                        fillColor: Colors.white,
+                        fillColor: Colors.black45,
                         highlightColor: Colors.red[100],
                         splashColor: Colors.red[100],
                         padding: const EdgeInsets.all(15.0),
@@ -410,7 +413,7 @@ class HomePageState extends State<HomePage> {
                           ),
                         ),
                         shape: new CircleBorder(),
-                        fillColor: Colors.white,
+                        fillColor: Colors.black45,
                         highlightColor: Colors.red[100],
                         splashColor: Colors.red[100],
                         padding: const EdgeInsets.all(15.0),
@@ -469,7 +472,7 @@ class HomePageState extends State<HomePage> {
                           ),
                         ),
                         shape: new CircleBorder(),
-                        fillColor: Colors.white,
+                        fillColor: Colors.black45,
                         highlightColor: Colors.red[100],
                         splashColor: Colors.red[100],
                         padding: const EdgeInsets.all(15.0),
@@ -528,7 +531,7 @@ class HomePageState extends State<HomePage> {
                           ),
                         ),
                         shape: new CircleBorder(),
-                        fillColor: Colors.white,
+                        fillColor: Colors.black45,
                         highlightColor: Colors.red[100],
                         splashColor: Colors.red[100],
                         padding: const EdgeInsets.all(15.0),
@@ -573,6 +576,7 @@ class HomePageState extends State<HomePage> {
                         child: new Text("=",
                           style: TextStyle(
                               fontSize: 35.0,
+                              color:Colors.black,
                               fontWeight: FontWeight.w500
                           ),
                         ),
